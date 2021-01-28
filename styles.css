@@ -10,8 +10,8 @@ body {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    width: 25%;
-    margin: 50px 50%;
+    width: 50%;
+    
   }
   
   /* Dropdown button on hover & focus */
@@ -28,9 +28,11 @@ body {
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
+    right: 0px;
+    top: 0px;
     background-color: #f1f1f1;
-    min-width: 160px;
+    /* min-width: 160px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -54,11 +56,12 @@ body {
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
     width: 55%;
+    margin-top: 15%;
 }
 #ytVideo {
     position: absolute;
     top: 0;
-    left: 30%;
+    left: 45%;
     width: 110%;
     
     padding-top: 80px;
@@ -76,15 +79,22 @@ h1 {
 h3 {
     width: 40%;
     position: relative;
-    top: 200px;
-    margin-left: 300px;
+    top: 150px;
+    margin-left: 10%;
     font-size: 36px;
     font-family: 'Fira Sans', sans-serif;
 }
 .time {
-    width: 50%;
+    width: 300px;
     position: relative;
-    left: 45%;
+    left: 70%;
+    padding: 0;
+
+    /* margin: 25px; */
+}
+.parabutton {
+    padding: 0;
+    margin: 0;
 }
 iframe {
     width: 50%;
