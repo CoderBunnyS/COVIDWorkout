@@ -1,16 +1,18 @@
 /* Dropdown Button */
 .dropbtn {
-    background-color: #3498DB;
+    background-color: #CF6533;
     color: white;
-    padding: 16px;
+    padding: 25px 50px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    width: 25%;
+    margin: 50px 50%;
   }
   
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #CF6533;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -43,8 +45,56 @@
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
 
-  button {
-    
-    padding: 25px;
+  /* button {
+    margin: 100px 50%;
+    padding: 50px;
     background-color: blueviolet;
+  } */
+  
+  #player {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    width: 55%;
+}
+#ytVideo {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 100%;
+    
+    padding-top: 80px;
+    text-align: center;
+}
+h1 {
+    color: #CF6533;
+    justify-content: center;
+    margin: auto;
+    margin-left: auto;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 150px;
+    text-align: center;
+}
+h3 {
+    width: 40%;
+    position: relative;
+    top: 200px;
+    margin-left: 300px;
+    font-size: 36px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.time {
+    width: 50%;
+    position: relative;
+    left: 45%;
+}
+iframe {
+    width: 50%;
+    height: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+    * {
+      display: block;
+    }
   }

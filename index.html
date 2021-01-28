@@ -5,41 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COVID Workout Plan</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;1,600&display=swap" rel="stylesheet">
 </head>
 <header><h1>COVID WORKOUT</h1></header>
-<h3>Tired of sitting on your tushy at home because COVID cancelled everything but you don't know what to do? <br>
+<div class = "paraButton">
+<h3>Tired of sitting on your tushy at home because COVID cancelled everything but you don't know what to do?
     Choose from the menus below and let us pick a workout for you!</h3>
-    <div class="menus">
     <div class="time">
         <button onclick="timeFunction()" class="dropbtn">Workout Length</button>
         <div id="timeDropdown" class="dropdown-content">
           <a onclick="screen15()" href="#">15 minutes</a>
           <a onclick="screen30()" href="#">30 minutes</a>
-          <a onclick="screen45()" href="#">45+ minutes</a>
+          <a onclick="screen45()" href="#">45 minutes</a>
         </div>
-      </div> 
-      <br>   
-    <div class="Type">
-        <button onclick="typeFunction()" class="dropbtn">Workout Type</button>
-        <div id="typeDropdown" class="dropdown-content">
-          <a href="#">Cardio</a>
-          <a href="#">Strength</a>
-          <a href="#">Stretching</a>
-        </div>
-      </div>  
-      <button onclick="screen()">Change video</button>  
-    <!-- <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-        <div id="myDropdown" class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
-        </div>
-      </div>     -->
     </div>
-    <div id="player">
+    </div>
+<div id="player">
   <br>
-  <iframe id="ytVideo" width="560" height="315" src="https://www.youtube.com/embed/eDkpVwrhYfo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe id="ytVideo" src="https://static01.nyt.com/images/2017/04/09/well/9minute-workout-promo/9minute-workout-promo-jumbo.png" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="right: 0px"></iframe>
 </div>
       <body>
 
