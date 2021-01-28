@@ -42,3 +42,10 @@
   
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+
+  button {
+    margin: 15%;
+    padding: 25px;
+    background-color: blueviolet;
+    
+  }

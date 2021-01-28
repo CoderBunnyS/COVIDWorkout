@@ -22,5 +22,7 @@ function typeFunction() {
   }
 
   function screen() {
-    document.getElementsByClassName("screen").src = "https://www.youtube.com/embed/61iKnKtwpUM"
+    
+    document.getElementById('ytVideo').src = "https://www.youtube.com/embed/bo2KQer1KNM";
   };
+  
