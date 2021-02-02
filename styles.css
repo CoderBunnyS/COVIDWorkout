@@ -53,10 +53,11 @@ body {
   
 #player {
     position: relative;
+    bottom: 100px;
     padding-bottom: 56.25%; /* 16:9 */
     height: 0;
     width: 55%;
-    margin-top: 15%;
+    margin-top: 0;
 }
 #ytVideo {
     position: absolute;
@@ -73,13 +74,22 @@ h1 {
     margin: auto;
     margin-left: auto;
     font-family: 'Fira Sans', sans-serif;
-    font-size: 150px;
+    font-size: 100px;
     text-align: center;
 }
-h3 {
+h2 {
+    color: #CF6533;
+    justify-content: center;
+    margin: auto;
+    margin-left: auto;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+h4 {
     width: 40%;
     position: relative;
-    top: 150px;
+    top: 10px;
     margin-left: 10%;
     font-size: 36px;
     font-family: 'Fira Sans', sans-serif;
@@ -89,12 +99,11 @@ h3 {
     position: relative;
     left: 70%;
     padding: 0;
-
+    bottom: 200px;
     /* margin: 25px; */
 }
 .parabutton {
-    padding: 0;
-    margin: 0;
+    height: 80%;
 }
 iframe {
     width: 50%;
