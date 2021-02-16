@@ -11,6 +11,7 @@ body {
     border: none;
     cursor: pointer;
     width: 50%;
+    margin-top: 10%;
     
   }
   
@@ -87,7 +88,7 @@ h2 {
     text-align: center;
 }
 h4 {
-    width: 40%;
+    width: 80%;
     position: relative;
     top: 10px;
     margin-left: 10%;
@@ -114,4 +115,8 @@ iframe {
     * {
       display: block;
     }
+  }
+  #cartoon {
+    display: inline;
+    margin: 500px;
   }

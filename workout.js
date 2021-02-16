@@ -39,5 +39,6 @@ function typeFunction() {
   };
   function yoga() {   
     document.getElementById('ytVideo').src = yoga[Math.floor(Math.random() * yoga.length)];
+    console.log(yoga[Math.floor(Math.random() * yoga.length)])
   };
   
