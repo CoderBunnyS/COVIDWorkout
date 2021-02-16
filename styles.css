@@ -121,3 +121,11 @@ iframe {
     margin: 500px;
     /* background-color: aqua; */
   }
+  /* #anibuttons {
+   display: inline;
+   margin: 50px 100px;
+   width: 80%;
+  } */
+  div#aniButtons {
+    margin-left: 250px;
+}
