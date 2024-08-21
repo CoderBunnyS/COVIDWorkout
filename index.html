@@ -6,40 +6,43 @@
     <title>COVID Workout Plan</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;1,600&display=swap" rel="stylesheet">
 </head>
-<header><h1>COVID</h1><br>
-    <h2>Workout Roulette</h2></header>
-<div class = "paraButton">
-<h4>Tired of sitting on your tushy because COVID cancelled everything? Want to work out but you don't know what to do?<br>
-    Choose the length of the workout you would like from the menu and we'll pick a workout for you! You might end up doing yoga, cardio or strength.<br>
-  </h4>
-  <div id="aniButtons"><script id = "cartoon" src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <lottie-player src="https://assets10.lottiefiles.com/private_files/lf30_nQ5A6r.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
-    <div class="time">
-        <button onclick="timeFunction()" class="dropbtn">Workout Length</button>
-        <div id="timeDropdown" class="dropdown-content">
-          <a onclick="screen15()" href="#">15 minutes</a>
-          <a onclick="screen30()" href="#">30 minutes</a>
-          <a onclick="screen45()" href="#">45 minutes</a>
-        </div>
-    <div class="type">
-        <button onclick="typeFunction()" class="dropbtn">Type of Workout</button>
-        <div id="typeDropdown" class="dropdown-content">
-          <a onclick="yoga()" href="#">Yoga</a>
-          <a onclick="screen30()" href="#">30 minutes</a>
-          <a onclick="screen45()" href="#">45 minutes</a>
-        </div>
+<body>
+<header>
+    <h1>COVID</h1>
+    <h2>Workout Roulette</h2>
+</header>
+<div class="paraButton">
+    <div class="paraAnimation">
+        <h4>Tired of sitting on your tushy because COVID cancelled everything? Want to work out but you don't know what to do?<br>
+            Choose the length of the workout you would like from the menu and we'll pick a workout for you! You might end up doing yoga, cardio or strength.<br>
+        </h4>
+        <lottie-player id="animation" src="https://assets10.lottiefiles.com/private_files/lf30_nQ5A6r.json" background="transparent" speed="1" style="width: 100%; height: auto;" loop autoplay></lottie-player>
     </div>
+    <div id="aniButtons">
+        <div class="dropdown">
+          <button onclick="timeFunction()" class="dropbtn">Workout Length</button>
+          <div id="timeDropdown" class="dropdown-content">
+            <a onclick="screen15()" href="#">15 minutes</a>
+            <a onclick="screen30()" href="#">30 minutes</a>
+            <a onclick="screen45()" href="#">45 minutes</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button onclick="typeFunction()" class="dropbtn">Type of Workout</button>
+          <div id="typeDropdown" class="dropdown-content">
+            <a onclick="playYoga()" href="#">Yoga</a>
+            <a onclick="playStrength()" href="#">Strength</a>
+            <a onclick="playCardio()" href="#">Cardio</a>
+          </div>
+        </div>        
     </div>
-  </div>
-<div id="player">
-  <br>
-  <iframe id="ytVideo" src="https://static01.nyt.com/images/2017/04/09/well/9minute-workout-promo/9minute-workout-promo-jumbo.png" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="right: 0px"></iframe>
 </div>
-      <body>
-
+<div id="player">
+    <iframe id="ytVideo" src="https://static01.nyt.com/images/2017/04/09/well/9minute-workout-promo/9minute-workout-promo-jumbo.png" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <script src="workout.js"></script>    
 </body>
 </html>
